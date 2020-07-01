@@ -3,7 +3,7 @@ Locales['en'] = {
     ['target_dead']         = "The guy you're robbing is dead.",
     ['target_too_far']      = "Target is too far away.",
     ['robbery_started']     = "Robbery in progress!",
-    ['robbery_completed']   = "You got ~g~$%s~s~!",
+    ['robbery_completed']   = "You got ~g~%s~s~!",
     ['can_rob_again']       = "You can rob again!",
     ['remained'] = 'Remained~b~ ',
 }

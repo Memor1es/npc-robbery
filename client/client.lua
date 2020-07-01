@@ -142,7 +142,7 @@ Citizen.CreateThread( function()
 					end
 					TriggerServerEvent('robbingCivInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
-						TriggerServerEvent('drugsInProgressS1', street1, sex)
+						TriggerServerEvent('civRobberyInProgressS1', street1, sex)
 					elseif s2 ~= 0 then
 						TriggerServerEvent('civRobberyInProgress', street1, street2, sex)
 					end

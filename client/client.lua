@@ -84,20 +84,6 @@ AddEventHandler('robbingNPC', function()
 	isRobbingNPC = true
 end)
 
---TIME TO ROB
-Citizen.CreateThread(function()
-	while true do
-		if isRobbingNPC then
-			if secondsRemaining > 0 then
-				secondsRemaining = secondsRemaining - 1
-				--ESX.ShowNotification(_U('remained') .. secondsRemaining .. 's')
-			end
-			Citizen.Wait(1000)
-		end
-		Citizen.Wait(100)
-	end
-end)
-
 -- NOTIFY POLICE
 RegisterNetEvent('civRobOutlawNotify')
 AddEventHandler('civRobOutlawNotify', function(alert)

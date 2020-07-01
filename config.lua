@@ -14,6 +14,6 @@ Config.StolenItems = {
     MaxChance = 40,
     MinChance = 1,
     Items = {{ Name = 'stolen_iphone', Label="Stolen Iphone", ChanceRangeMin = 11, ChanceRangeMax = 20},
-    { Name = 'stolen_wallet', Label="Stolen Wallet", ChanceRangeMin = 20, ChanceRangeMax = 40},
+    { Name = 'stolen_wallet', Label="Stolen Wallet", ChanceRangeMin = 21, ChanceRangeMax = 40},
     { Name = 'money', ChanceRangeMin = 1, ChanceRangeMax = 10}}
 }
